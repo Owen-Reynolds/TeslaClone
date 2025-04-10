@@ -1,0 +1,17 @@
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.middleHeaderSection{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.rightHeaderSection{
+    display: flex;
+    align-items: center;
+}
