@@ -1,7 +1,42 @@
 .carCardContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 25%;
-    height: 80vh;
+    height: 85vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.carCardContainer:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.carCardTitle h2{
+    opacity: 0;
+    font-size: 7vw;
+    color: black;
+    margin: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.carCardContainer:hover .carCardTitle h2{
+    opacity: 1;
+}
+
+.carCardPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carCardContainer:hover .carCardPrice h3{
+    opacity: 1;
+}
+
+.carCardPrice h3{
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }

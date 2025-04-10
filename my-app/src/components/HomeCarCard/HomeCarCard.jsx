@@ -15,6 +15,7 @@ export default function HomeCarCard(props) {
                     <h2>{props.title}</h2>
                 </div>
                 <div className="carCardPrice">
+                    <h3>Starting At</h3>
                     <h3>{props.price}</h3>
                 </div>
             </div>

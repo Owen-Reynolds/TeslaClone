@@ -20,6 +20,9 @@ export default function Home() {
                 <HomeCarCard title="X" price="$84,990" picture={ModelX}/>
                 <HomeCarCard title="Y" price="$41,490" picture={ModelY}/>
             </div>
+            <div className="homeCyberSection">
+                <h1>Test</h1>
+            </div>
         </>
     );
 }
