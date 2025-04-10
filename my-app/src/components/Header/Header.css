@@ -3,15 +3,38 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.leftHeaderSection{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftHeaderSection img{
+    width: 10vw;
 }
 
 .middleHeaderSection{
     display: flex;
-    gap: 5%;
     align-items: center;
+    justify-content: center;
+    width: 70%;
+    gap: 5%;
+}
+
+.middleHeaderSection h2{
+    font-size: 1.5vw;
 }
 
 .rightHeaderSection{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 15%;
+    gap: 5%;
 }

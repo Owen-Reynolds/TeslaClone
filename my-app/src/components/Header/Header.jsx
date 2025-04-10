@@ -1,13 +1,15 @@
 import React from 'react';
 import './Header.css';
 
+import teslaLogo from '../../assets/teslaLogo.png';
+
 export default function Header() {
     return(
         <>
             <div className="headerContainer">
                 <div className="headerContent">
                     <div className="leftHeaderSection">
-                        <img src="" alt="" />
+                        <img src={teslaLogo} alt="" />
                     </div>
                     <div className="middleHeaderSection">
                         <h2>Vehicles</h2>
