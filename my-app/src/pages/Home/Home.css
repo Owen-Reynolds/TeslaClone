@@ -3,6 +3,52 @@
     src: url("..//..//assets/Cybertruck-RegularTTF.ttf");
 }
 
+.homeHeaderSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("..//..//assets/mainImage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin-bottom: 3%;
+}
+
+.homeButtonSection{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.homeButtonSection button{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vehicleButton{
+    background-color: #3e6ae1;
+    border: 1px solid #3e6ae1;
+    color: white;
+}
+
+.vehicleButton:hover{
+    background-color:#3860cd;
+}
+
+.missionButton{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.missionButton:hover{
+    background-color: #f0f0f0;
+}
+
 .homeCarSection{
     width: 100%;
     display: flex;

@@ -15,6 +15,12 @@ export default function Home() {
     return(
         <>
             <Header />
+            <div className="homeHeaderSection">
+                <div className="homeButtonSection">
+                    <button className="vehicleButton">Our Vehicles</button>
+                    <button className="missionButton">Our Mission</button>
+                </div>
+            </div>
             <div className="homeCarSection">
                 <HomeCarCard title="S" price="$79,990" picture={ModelS}/>
                 <HomeCarCard title="3" price="$34,990" picture={Model3}/>
