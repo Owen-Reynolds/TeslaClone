@@ -1,5 +1,23 @@
+@font-face {
+    font-family: 'CyberFont';
+    src: url("..//..//assets/Cybertruck-RegularTTF.ttf");
+}
+
 .homeCarSection{
     width: 100%;
     display: flex;
     align-items: center;
 }
+
+.homeCyberSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeCyberSection h1{
+    font-size: 7vw;
+    font-family: 'CyberFont', sans-serif; 
+    margin: 0;
+}
+
