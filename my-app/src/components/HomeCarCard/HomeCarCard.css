@@ -6,6 +6,22 @@
     width: 25%;
     height: 85vh;
     transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.carCardContainer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Initially transparent */
+    transition: background-color 0.5s ease-in-out;
+}
+
+.carCardContainer:hover::after {
+    background-color: rgba(0, 0, 0, 0.5); /* Change to semi-transparent on hover */
 }
 
 .carCardContainer:hover{
@@ -13,10 +29,15 @@
     transform: scale(1.10);
 }
 
+.carCardTitle{
+    position: relative;
+    z-index: 1;
+}
+
 .carCardTitle h2{
     opacity: 0;
     font-size: 7vw;
-    color: black;
+    color: white;
     margin: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -30,13 +51,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
+}
+
+.carCardPrice h3{
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    color: white;
 }
 
 .carCardContainer:hover .carCardPrice h3{
     opacity: 1;
 }
 
-.carCardPrice h3{
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
