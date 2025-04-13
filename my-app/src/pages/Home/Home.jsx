@@ -10,6 +10,7 @@ import ModelS from '../../assets/modelS.jpg';
 import Model3 from '../../assets/model3.jpg';
 import ModelX from '../../assets/modelX.jpg';
 import ModelY from '../../assets/modelY.jpg';
+import cybertruck from '../../assets/cybertruck.jpg';
 
 export default function Home() {    
     return(
@@ -28,11 +29,7 @@ export default function Home() {
                 <HomeCarCard title="Y" price="$41,490" picture={ModelY}/>
             </div>
             <div className="homeCyberSection">
-                <h1>Cyber</h1>
-                <div className="cyberCarSection">
-                    <HomeCyberCard title="Truck" price="$11,111" picture={""} />
-                    <HomeCyberCard title="Cab" price="$11,111" picture={""} />
-                </div>
+                <HomeCyberCard title="Cybertruck" price="$11,111" picture={cybertruck} />
             </div>
         </>
     );

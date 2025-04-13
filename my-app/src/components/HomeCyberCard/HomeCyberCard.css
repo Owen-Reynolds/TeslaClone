@@ -1,0 +1,43 @@
+.cyberCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.cyberCardHeading{
+    font-family: "cyberFont";
+    font-size: 8vw;
+    margin: 0;
+}
+
+.cyberCardButtons{
+    margin-top: 23%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.cyberCardButtons button{
+    width: 20vw;
+    height: 7vh;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+.orderButton:hover{
+    background-color: #d6d5d5;
+}
+
+.inventoryButton{
+    background-color: rgb(45, 44, 44);
+    color: white;
+}
+
+.inventoryButton:hover{
+    background-color: rgb(35, 34, 34);
+}
