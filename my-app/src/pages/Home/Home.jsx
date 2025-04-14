@@ -41,7 +41,7 @@ export default function Home() {
                 <HomeCarCard title="Y" price="$41,490" picture={ModelY}/>
             </div>
             <div className="homeCyberSection">
-                <HomeCyberCard title="Cybertruck" price="$11,111" picture={Cybertruck} />
+                <HomeCyberCard title="Cybertruck" price="$62,490" picture={Cybertruck} />
             </div>
             <div className="homeFutureSection">
                 <HomeFutureCard title="Cybercab" picture={Cybercab} />   
