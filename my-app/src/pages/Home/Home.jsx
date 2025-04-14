@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 
 import  Header  from '../../components/Header/Header.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 import HomeCarCard from '../../components/HomeCarCard/HomeCarCard.jsx';
 import HomeCyberCard from '../../components/HomeCyberCard/HomeCyberCard.jsx';
@@ -48,6 +49,7 @@ export default function Home() {
             <div className="extraSection">
                 <HomeExtraCard title="Accessories" picture={Extra} />
             </div>
+            <Footer />
         </>
     );
 }
