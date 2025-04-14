@@ -6,6 +6,7 @@ import  Header  from '../../components/Header/Header.jsx';
 import HomeCarCard from '../../components/HomeCarCard/HomeCarCard.jsx';
 import HomeCyberCard from '../../components/HomeCyberCard/HomeCyberCard.jsx';
 import HomeFutureCard from '../../components/HomeFutureCard/HomeFutureCard.jsx';
+import HomeSolarCard from '../../components/HomeSolarCard/HomeSolarCard.jsx';
 
 import ModelS from '../../assets/modelS.jpg';
 import Model3 from '../../assets/model3.jpg';
@@ -14,6 +15,7 @@ import ModelY from '../../assets/modelY.jpg';
 import Cybertruck from '../../assets/cybertruck.jpg';
 import Cybercab from '../../assets/cybercab.jpg';
 import Robovan from '../../assets/robovan.png';
+import Solarpanel from '../../assets/solarpanel.jpg';
 
 export default function Home() {    
     return(
@@ -38,8 +40,8 @@ export default function Home() {
                 <HomeFutureCard title="Cybercab" picture={Cybercab} />   
                 <HomeFutureCard title="Robovan" picture={Robovan} />
             </div>
-            <div className="homeRobotSection">
-
+            <div className="homeSolarSection">
+                <HomeSolarCard title="Solar Panels" subtitle="Produce Clean Energy From Your Roof" picture={Solarpanel}/>
             </div>
         </>
     );

@@ -1,0 +1,36 @@
+.solarCardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.solarCardTitle h2{
+    font-size: 8vw;
+    margin: 0;
+    color: white;
+}
+
+.solarCardTitle h4{
+    font-size: 2vw;
+    margin: 0;
+    color: white;
+    text-decoration: underline;
+}
+
+.solarCardButtons{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+
+.solarCardButtons button{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 3px;
+    cursor: pointer;
+}
