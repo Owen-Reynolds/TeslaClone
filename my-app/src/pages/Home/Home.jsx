@@ -9,6 +9,7 @@ import HomeCyberCard from '../../components/HomeCyberCard/HomeCyberCard.jsx';
 import HomeFutureCard from '../../components/HomeFutureCard/HomeFutureCard.jsx';
 import HomeSolarCard from '../../components/HomeSolarCard/HomeSolarCard.jsx';
 
+import Tesla from '../../assets/tesla.png';
 import ModelS from '../../assets/modelS.jpg';
 import Model3 from '../../assets/model3.jpg';
 import ModelX from '../../assets/modelX.jpg';
@@ -25,6 +26,9 @@ export default function Home() {
         <>
             <Header />
             <div className="homeHeaderSection">
+                <div className="homeImageSection">
+                    <img src={Tesla} alt="" />
+                </div>
                 <div className="homeButtonSection">
                     <button className="vehicleButton">Our Vehicles</button>
                     <button className="missionButton">Our Mission</button>
