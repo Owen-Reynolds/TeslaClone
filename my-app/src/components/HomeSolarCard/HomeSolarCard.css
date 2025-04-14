@@ -8,7 +8,7 @@
 }
 
 .solarCardTitle h2{
-    font-size: 8vw;
+    font-size: 7vw;
     margin: 0;
     color: white;
 }
@@ -33,4 +33,24 @@
     height: 7vh;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.orderNowButton{
+    background-color: #3e6ae1;
+    border: 1px solid #3e6ae1;
+    color: white;
+}
+
+.orderNowButton:hover{
+    background-color:#3860cd;
+}
+
+.learnMoreButton{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.learnMoreButton:hover{
+    background-color: #d6d5d5;
 }

@@ -16,6 +16,8 @@ import Cybertruck from '../../assets/cybertruck.jpg';
 import Cybercab from '../../assets/cybercab.jpg';
 import Robovan from '../../assets/robovan.png';
 import Solarpanel from '../../assets/solarpanel.jpg';
+import HomeExtraCard from '../../components/HomeExtraCard/HomeExtraCard.jsx';
+import Extra from '../../assets/extra.jpg';
 
 export default function Home() {    
     return(
@@ -42,6 +44,9 @@ export default function Home() {
             </div>
             <div className="homeSolarSection">
                 <HomeSolarCard title="Solar Panels" subtitle="Produce Clean Energy From Your Roof" picture={Solarpanel}/>
+            </div>
+            <div className="extraSection">
+                <HomeExtraCard title="Accessories" picture={Extra} />
             </div>
         </>
     );

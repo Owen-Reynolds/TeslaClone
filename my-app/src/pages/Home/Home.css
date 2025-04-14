@@ -46,7 +46,7 @@
 }
 
 .missionButton:hover{
-    background-color: #f0f0f0;
+    background-color: #d6d5d5;
 }
 
 .homeCarSection{
@@ -73,6 +73,11 @@
 }
 
 .homeSolarSection{
+    display: flex;
+    margin-top: 3%;
+}
+
+.extraSection{
     display: flex;
     margin-top: 3%;
 }
