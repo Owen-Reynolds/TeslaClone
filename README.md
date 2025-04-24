@@ -4,7 +4,8 @@
 This website is a redesign of the Tesla homepage, created to further enhance my skills in React. It adds more variety to the original Tesla homepage and includes a more engaging user experience.
 
 ## Demo Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FA6kk5jzmiA?si=7RLbGilJl1cO5RIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Watch the video on YouTube](https://www.youtube.com/watch?v=FA6kk5jzmiA)
+
 
 
 ## Technologies
